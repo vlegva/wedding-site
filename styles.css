@@ -152,10 +152,10 @@ h3,
 h1 {
   margin: 0;
   text-transform: uppercase;
-  /*font-size: clamp(3.1rem, 13vw, 8.6rem);
-  line-height: 0.92;*/
-  font-size: 80px;
-  line-height: 1.1;
+  font-size: clamp(3.1rem, 13vw, 7rem);
+  line-height: 0.92;
+ /* font-size: 80px;
+  line-height: 1.1;*/
   letter-spacing: 0;
 }
 
@@ -173,8 +173,8 @@ h1 small {
 .date,
 .city {
   margin: 28px 0 0;
-  /*font-size: clamp(1.25rem, 4.3vw, 2.05rem);*/
-  font-size: 40px;
+  font-size: clamp(2rem, 4.3vw, 2.75rem);
+ /* font-size: 40px;*/
 }
 
 .city {
@@ -186,7 +186,7 @@ h1 small {
   margin-top: clamp(38px, 8vh, 72px);
   color: var(--ink);
   text-decoration: none;
-  font-size: 0.92rem;
+  font-size: 1rem;
   letter-spacing: 0.08em;
   text-transform: uppercase;
 }
@@ -218,7 +218,7 @@ h1 small {
 h2 {
   margin: 0;
   text-transform: uppercase;
-  font-size: clamp(1.72rem, 5vw, 3rem);
+  font-size: clamp(1.9rem, 5vw, 3rem);
   line-height: 1.12;
 }
 
@@ -270,7 +270,7 @@ time {
 .attire h3 {
   margin: 10px 0 10px;
   text-transform: uppercase;
-  font-size: 1.05rem;
+  font-size: 1.15rem;
 }
 
 .timeline p {
@@ -300,13 +300,13 @@ time {
   max-width: 680px;
   color: var(--muted);
   text-align: center;
-  font-size: clamp(1rem, 2.6vw, 1.16rem);
+  font-size: clamp(1.2rem, 2.6vw, 2.16rem);
 }
 
 .attire-note {
   max-width: 430px;
   margin-bottom: 18px;
-  font-size: 0.98rem;
+  font-size: 1.1rem;
 }
 
 .attire-photo {
